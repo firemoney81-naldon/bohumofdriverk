@@ -1,23 +1,392 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
+ <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://[도메인]/운전자보험-자부상-분석"
+      },
+      "headline": "운전자보험 자부상 핵심 분석: 자동차부상치료비 14급 보상 완벽 정리 (2026)",
+      "image": "https://[도메인]/자부상-이미지.png",
+      "datePublished": "2026-01-01T09:00:00+09:00",
+      "dateModified": "2026-01-01T09:00:00+09:00",
+      "author": {
+        "@type": "Organization",
+        "name": "운전자보험 전문가 그룹"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "보험 정보 분석 센터",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://[도메인]/로고.png"
+        }
+      },
+      "description": "운전자보험의 핵심 특약인 자동차부상치료비(자부상)의 2026년 최신 보장 내용과 14급 등급별 보상 기준을 깊이 있게 분석하고, 합리적인 운전자보험 가입 전략을 제시합니다."
+    }
+    </script>
+
+    <style>
+        /* 기본 스타일 - 부드러운 톤 */
+        body { font-family: 'Noto Sans KR', sans-serif; line-height: 1.7; margin: 0; padding: 0; background: #f4f7f9; color: #4a4a4a; }
+        .container { max-width: 960px; margin: 25px auto; padding: 0 20px; background: #ffffff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); }
+        header { padding: 30px 0; border-bottom: 2px solid #e0e6eb; text-align: center; }
+        h1, h2, h3 { color: #004a80; line-height: 1.4; }
+        h1 { font-size: 2.2em; margin-bottom: 10px; font-weight: 800; }
+        h2 { font-size: 1.8em; padding-top: 20px; border-bottom: 1px dashed #e0e6eb; padding-bottom: 10px; margin-top: 30px; }
+        h3 { font-size: 1.4em; margin-top: 20px; color: #1e6fae; }
+        section { padding: 30px 0; }
+        p { margin-bottom: 15px; }
+        ul, ol { padding-left: 25px; margin-bottom: 20px; }
+        li { margin-bottom: 8px; }
+
+        /* 테이블 스타일 */
+        table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20px 0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+        th, td { border: none; padding: 14px 10px; text-align: left; vertical-align: middle; }
+        th { background: #0077b6; color: #ffffff; font-weight: 700; border-bottom: 3px solid #004a80; }
+        td { background: #f9fbfd; border-bottom: 1px solid #e0e6eb; }
+        tr:nth-child(even) td { background: #eef4f8; }
+        
+        /* CTA 버튼 (부드러운 블루) */
+        .btn-cta {
+            display: block;
+            width: 80%;
+            margin: 30px auto;
+            padding: 15px 30px;
+            background: #4cc9f0; /* 부드러운 블루 */
+            color: #004a80;
+            font-weight: 700;
+            font-size: 1.1em;
+            border-radius: 40px;
+            box-shadow: 0 6px 15px rgba(76, 201, 240, 0.4);
+            transition: all 0.3s ease;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+        }
+        .btn-cta:hover {
+            background: #48a9c4;
+            box-shadow: 0 4px 10px rgba(76, 201, 240, 0.6);
+            color: #ffffff;
+        }
+
+        /* 폼 스타일 */
+        form { background: #eef4f8; padding: 30px; border-radius: 10px; margin-top: 20px; }
+        label { display: block; margin-bottom: 6px; margin-top: 15px; font-weight: 600; color: #004a80; }
+        input[type="text"], input[type="tel"], input[type="email"], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #c9d6de;
+            border-radius: 6px;
+            box-sizing: border-box;
+            font-size: 1em;
+            transition: border-color 0.3s;
+        }
+        input:focus, select:focus, textarea:focus { border-color: #4cc9f0; outline: none; box-shadow: 0 0 5px rgba(76, 201, 240, 0.3); }
+
+        /* 외부 링크 강조 */
+        .external-link { color: #0077b6; font-weight: 600; text-decoration: none; }
+        .external-link:hover { text-decoration: underline; }
+
+        /* footer */
+        footer { text-align: center; padding: 20px 0; margin-top: 30px; border-top: 1px solid #e0e6eb; font-size: 0.9em; color: #888; }
+        
+        /* 네비게이션 */
+        nav { text-align: center; padding: 15px 0; background: #dceefc; border-radius: 8px; margin-bottom: 20px; }
+        nav ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; justify-content: center; }
+        nav li { margin: 5px 15px; }
+        nav a { color: #004a80; text-decoration: none; font-weight: 600; padding: 5px 10px; border-radius: 4px; transition: background-color 0.3s; }
+        nav a:hover { background-color: #b3d9ff; }
+
+        /* 반응형 */
+        @media(max-width: 768px) {
+            .container { margin: 10px auto; padding: 0 10px; }
+            h1 { font-size: 1.8em; }
+            h2 { font-size: 1.5em; }
+            .btn-cta { width: 95%; padding: 12px; }
+            nav ul { flex-direction: column; align-items: center; }
+            nav li { margin: 5px 0; }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>운전자보험 **자부상** 핵심 분석: **자동차부상치료비** 14급 보상 완벽 정리 (2026)</h1>
+            <p><strong>운전자보험</strong>의 핵심 담보인 **자부상(자동차부상치료비)** 특약에 대한 2026년 최신 보장 내용과 가입 전략을 깊이 있게 다룹니다. 경미한 접촉사고부터 중상해 사고까지, **자부상 한도**와 보험사별 **자부상 보험료** 비교를 통해 합리적인 선택을 돕습니다.</p>
+            <a href="#consultation" class="btn-cta">자부상 맞춤 견적 및 상담 요청하기</a>
+        </header>
+
+        <nav aria-label="주요 목차">
+            <ul>
+                <li><a href="#definition">자부상이란?</a></li>
+                <li><a href="#necessity">필요성 및 오해</a></li>
+                <li><a href="#grade-detail">14급 등급별 보상</a></li>
+                <li><a href="#comparison">핵심 담보 비교</a></li>
+                <li><a href="#strategy">가입 전략 (2026)</a></li>
+                <li><a href="#consultation">전문가 상담</a></li>
+            </ul>
+        </nav>
+
+        <section id="definition">
+            <h2>자부상(자동차부상치료비) 특약, 무엇이 핵심인가?</h2>
+            <p>
+                <strong>운전자보험 자부상</strong>은 정식 명칭이 **자동차부상치료비** 특약으로, 운전 중 혹은 탑승 중 교통사고로 인해 상해를 입었을 때, 본인의 과실 여부와 관계없이 자동차보험의 상해 등급(1급~14급)에 따라 정해진 금액을 지급받는 담보입니다. 이는 운전자 본인을 위한 최소한의 안전장치이자 가장 자주 활용되는 특약 중 하나로 꼽힙니다. **운전자보험** 가입 시 **자부상 한도**를 높게 설정하는 것이 최근 트렌드이며, 이는 **경미한 사고**에서도 실질적인 보상을 받을 수 있게 하기 때문입니다.
+            </p>
+            
+            <h3>자동차보험과 운전자보험의 자부상 차이</h3>
+            <p>
+                많은 분들이 **자동차보험**에 이미 **자동차상해**나 **자기신체사고** 담보가 있는데, **운전자보험**에서 굳이 **자부상 특약**을 추가해야 하는지 의문을 가집니다. 가장 큰 차이점은 보상 방식과 활용 범위에 있습니다. 자동차보험의 해당 담보는 치료비 실손 보상 성격이 강하지만, 운전자보험의 자부상 특약은 **14급** 등급 분류에 따라 정액을 지급하며, 이는 자기 부담금이나 통원 치료비, 그리고 사고로 인한 기회비용을 충당하는 데 큰 도움을 줍니다. 또한, 본인 과실이 높은 사고의 경우에도 등급에 따른 보상이 이루어지므로, 운전자를 위한 실질적인 보장책으로 평가받고 있습니다.
+            </p>
+            
+            <p>
+                특히, **운전자보험 가입자 수**가 지속적으로 증가하는 주요 원인 중 하나가 바로 이 **자동차부상치료비** 특약의 실용성 때문입니다. 전문가들은 2026년에도 이 **자부상 담보**가 운전자보험 시장에서 가장 중요한 비교 기준으로 작용할 것으로 예측하고 있습니다.
+            </p>
+            
+            <a href="https://namu.wiki/w/운전자보험" target="_blank" class="external-link">참고: 운전자보험 및 자부상 관련 나무위키 정보</a>
+        </section>
+
+        <section id="necessity">
+            <h2>운전자보험의 필수성: 자부상 특약과 핵심 3대 담보</h2>
+            <p>
+                운전자보험은 단순히 상해를 보상받는 것을 넘어, 법률적인 위험을 대비하는 목적으로 더 중요합니다. 특히, **교통사고 처리 특례법**에 따라 발생하는 **12대 중과실** 사고 시 형사적 책임(벌금, 합의금, 변호사 선임)을 보장하는 것이 핵심입니다. **자부상**은 운전자 본인의 치료를, 나머지 3대 담보는 타인과의 형사적 문제 해결을 돕습니다.
+            </p>
+
+            <h3>핵심 3대 법률 담보</h3>
+            <ol>
+                <li><strong>교통사고처리지원금 (형사합의금):</strong> 운전 중 사고로 타인에게 중상해를 입히거나 사망에 이르게 했을 때, 피해자와의 형사 합의금을 지원합니다. **중상해 사고**의 경우 법적 의무가 발생하므로 충분한 한도 설정이 필수입니다.</li>
+                <li><strong>운전자 벌금:</strong> 교통사고로 확정된 벌금형에 대한 비용을 보상합니다. 대인 벌금과 대물 벌금 모두 포함되며, 특히 대인 벌금의 한도가 최근 상향 조정되는 추세입니다.</li>
+                <li><strong>변호사선임비용:</strong> 경찰 조사 단계부터 보장되도록 약관이 강화되었으며, 구속되거나 공소 제기된 경우뿐만 아니라 중대한 사고 발생 시 초기 법적 대응을 위해 필요합니다.</li>
+            </ol>
+            
+            <p>
+                이 3대 담보와 함께 **자부상 특약**을 보강하여 **운전자보험 설계**를 완성하는 것이 가장 안정적인 방안입니다. **운전자보험 가격**은 월 1~2만 원대로 형성되어 있어, 법률적 위험과 본인 상해 위험 대비에 대한 가성비가 매우 높습니다.
+            </p>
+            
+            <a href="https://www.fss.or.kr/" target="_blank" class="external-link">참고: 금융감독원 (FSS) 보험 관련 공식 자료</a>
+        </section>
+
+        <section id="grade-detail">
+            <h2>**자부상**의 핵심: 자동차사고 부상 등급별 보상 상세 (1급~14급)</h2>
+            <p>
+                **자동차부상치료비**는 경찰서 신고나 상대방 유무와 관계없이 보험사 자체 사고 접수만으로 보상이 가능하며, 부상 정도에 따라 1급부터 **14급**까지 분류됩니다. 1급이 가장 심한 부상(사망 또는 중대한 후유장해)이며, **14급**은 염좌(경미한 접촉사고 시 흔히 발생하는 목 또는 허리 통증)와 같은 가장 경미한 부상을 의미합니다.
+            </p>
+            <p>
+                일반적인 교통사고의 90% 이상이 12~14급에 해당합니다. 따라서 **자부상 한도**를 높게 설정하면, 상대방 자동차보험으로 충분한 보상을 받기 어려운 **경미한 사고** 시에도 보상 기준에 따라 정액을 받을 수 있어 매우 유용합니다.
+            </p>
+            <p>
+                **2026년 운전자보험** 시장은 **자부상 담보**의 **상해등급**별 최대 보상 금액 경쟁이 치열하며, 특히 12~14급 보장을 높여 운전자의 체감 만족도를 높이는 방향으로 발전하고 있습니다.
+            </p>
+
+            <h3 style="text-align: center;">자동차사고 부상 등급별 분류 및 보상 기준 (예시, 2026년 기준)</h3>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>부상 등급</th>
+                        <th>상해 정도 (예시)</th>
+                        <th>자부상 최대 보상 한도 (예시)</th>
+                        <th>특징 및 참고 사항</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1급</td>
+                        <td>사망, 중대한 후유장해</td>
+                        <td>최대 5,000만 원</td>
+                        <td>매우 심각한 사고, 높은 금액의 **자부상 한도** 필요</td>
+                    </tr>
+                    <tr>
+                        <td>7급</td>
+                        <td>팔/다리 골절 등 비교적 큰 부상</td>
+                        <td>500만 원 ~ 1,000만 원</td>
+                        <td>입원 치료가 필요한 수준의 사고</td>
+                    </tr>
+                    <tr>
+                        <td>11급</td>
+                        <td>인대 부분 파열, 염좌</td>
+                        <td>80만 원 ~ 120만 원</td>
+                        <td>상당한 기간의 통원 치료가 필요한 부상</td>
+                    </tr>
+                    <tr>
+                        <td>12급</td>
+                        <td>경미한 골절, 염좌 (장기간 치료)</td>
+                        <td>40만 원 ~ 70만 원</td>
+                        <td>대부분의 일반적인 사고에서 많이 발생하는 등급</td>
+                    </tr>
+                    <tr>
+                        <td>13급</td>
+                        <td>단순 염좌 및 타박 (중급)</td>
+                        <td>30만 원 ~ 50만 원</td>
+                        <td>가벼운 접촉사고 시 흔한 등급</td>
+                    </tr>
+                    <tr>
+                        <td><strong>14급</strong></td>
+                        <td><strong>단순 염좌 및 타박 (경미)</strong></td>
+                        <td><strong>20만 원 ~ 40만 원</strong></td>
+                        <td><strong>가장 흔한 등급. **자부상** 활용의 핵심</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+            <p style="font-size: 0.9em; color: #888;">*상기 표는 이해를 돕기 위한 예시 금액이며, 보험사 및 가입 시점, **자부상 조건**에 따라 실제 보상 금액은 상이할 수 있습니다. 자세한 내용은 약관을 확인해야 합니다.</p>
+
+            <a href="https://www.law.go.kr/법령/자동차손해배상보장법" target="_blank" class="external-link">참고: 자동차손해배상 보장법 (법제처) 상해 등급 관련 법규</a>
+        </section>
+
+        <section id="comparison">
+            <h2>운전자보험 핵심 담보 상호 비교 및 **자부상**의 위치</h2>
+            <p>
+                **운전자보험**은 법률적 리스크와 상해 리스크를 동시에 관리하는 상품입니다. 이 중 **자동차부상치료비(자부상)**는 운전자의 개인적인 상해에 집중하여, **교통사고처리지원금**이 타인의 피해에 대한 형사적 책임을 보상하는 것과 대조됩니다.
+            </p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>담보명</th>
+                        <th>주요 보상 대상</th>
+                        <th>보상 특징</th>
+                        <th>**운전자보험** 내 역할</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>자부상 (자동차부상치료비)</strong></td>
+                        <td><strong>운전자 본인</strong></td>
+                        <td><strong>자동차보험 14급 등급에 따른 정액 지급 (과실 무관)</strong></td>
+                        <td><strong>개인 상해 치료비 및 위로금</strong></td>
+                    </tr>
+                    <tr>
+                        <td>교통사고처리지원금</td>
+                        <td>피해자 (형사 합의금)</td>
+                        <td>12대 중과실 등 특정 사고 시 형사 합의금 지원</td>
+                        <td>형사적 책임 방어 (가장 중요)</td>
+                    </tr>
+                    <tr>
+                        <td>변호사선임비용</td>
+                        <td>운전자 본인 (법률 비용)</td>
+                        <td>경찰 조사 단계부터 변호사 선임 비용 지원</td>
+                        <td>초기 법률 대응 지원</td>
+                    </tr>
+                    <tr>
+                        <td>벌금</td>
+                        <td>국가 (법정 벌금)</td>
+                        <td>교통사고로 인한 확정 벌금 보상</td>
+                        <td>형사적 책임 방어 (필수)</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <p>
+                이러한 구성을 통해 **운전자보험**은 차량 운행 중 발생할 수 있는 모든 리스크를 다층적으로 대비할 수 있게 합니다. 특히, **자부상 보험료**는 전체 보험료에서 큰 비중을 차지하지 않으면서도, **가장 자주 사용되는 특약**이라는 점에서 그 효용성이 매우 높습니다.
+            </p>
+        </section>
+
+        <section id="strategy">
+            <h2>2026년 운전자보험 자부상 가입 전략 및 유의 사항</h2>
+            <p>
+                **2026년 운전자보험** 시장은 보장 범위 확대와 함께 **자부상 한도** 상향 경쟁이 계속될 전망입니다. 합리적인 **운전자보험 가입**을 위한 전략적 접근이 필요합니다.
+            </p>
+            
+            <h3>1. 자부상 등급별 보상액 확인 (핵심)</h3>
+            <p>
+                단순히 **자부상 한도**가 크다고 좋은 것이 아닙니다. 1급 보상액보다 실제 빈도가 높은 11~14급 보상액이 충분히 높은지 확인해야 합니다. 경미한 사고가 잦은 운전자라면 14급 보상이 높은 상품을 선택하는 것이 이득입니다. 최근에는 14급 기준 30만 원 이상을 추천하며, 이는 **자부상 비교**의 핵심 기준입니다.
+            </p>
+            
+            <h3>2. 3대 핵심 담보의 보장 한도 체크</h3>
+            <ul>
+                <li><strong>교통사고처리지원금:</strong> 최소 2억 원 이상 (사망/중상해 대비).</li>
+                <li><strong>운전자 벌금:</strong> 대인 3,000만 원, 대물 500만 원 한도 충족 확인.</li>
+                <li><strong>변호사선임비용:</strong> 경찰조사 단계 포함 여부와 한도 (최소 5,000만 원).</li>
+            </ul>
+            
+            <h3>3. 보험료와 만기 설정</h3>
+            <p>
+                **운전자보험 가격**은 상품 형태(순수보장형 vs. 만기환급형)와 보장 한도에 따라 크게 달라집니다. **순수보장형**이 **자부상 보험료**를 포함하여 전체 보험료가 저렴하므로 더 선호됩니다. 만기는 운전 경력 기간이나 경제 활동 기간을 고려하여 80세 또는 100세 만기를 선택합니다.
+            </p>
+
+            <h3>4. 무보험차 상해 및 기타 특약</h3>
+            <p>
+                **자부상** 특약 외에도 필요한 경우 **무보험차 상해** 관련 특약이나 차량 손해 보상 특약을 추가할 수 있습니다. 하지만 핵심은 **자부상**과 3대 법률 담보에 집중하여 **운전자보험 설계**를 단순화하고 **운전자보험 혜택**을 극대화하는 것입니다.
+            </p>
+            
+            <a href="https://www.mogef.go.kr/mp/pcd/mp_pcd_s101d2_04g.do" target="_blank" class="external-link">참고: 행정안전부 (정부24) 교통사고 관련 정보</a>
+            <a href="https://www.law.go.kr/법령/도로교통법" target="_blank" class="external-link">참고: 도로교통법 (법제처)</a>
+        </section>
+        
+        <hr style="border: 0; border-top: 1px solid #c9d6de; margin: 40px 0;">
+
+        <section id="consultation">
+            <h2 id="consultation-anchor">운전자보험 **자부상** 맞춤 견적 및 상세 상담 요청</h2>
+            <p>
+                귀하의 운전 환경과 필요에 맞는 최적의 **운전자보험 설계**를 위해 아래 설문지를 작성해 주시면, **자부상** 등 핵심 특약을 중심으로 전문적인 비교 분석 결과를 제공해 드립니다. 개인 정보는 상담 목적으로만 안전하게 사용됩니다.
+            </p>
+            
+            <form action="[상담요청_처리_URL]" method="POST">
+                <label for="name">이름<span style="color:#d62828;">*</span></label>
+                <input type="text" id="name" name="name" required placeholder="본인 성명 입력" />
+
+                <label for="phone">연락처<span style="color:#d62828;">*</span></label>
+                <input type="tel" id="phone" name="phone" required placeholder="예: 010-1234-5678" pattern="[0-9\-]+" />
+
+                <label for="birth">생년월일</label>
+                <input type="text" id="birth" name="birth" placeholder="예: 19881122 (8자리)" pattern="[0-9]{8}" />
+
+                <h3>✅ 운전자보험 상세 요청 사항</h3>
+                <label for="current_policy">현재 운전자보험 가입 여부</label>
+                <select id="current_policy" name="current_policy">
+                    <option value="none">가입 안 함 (신규 가입 희망)</option>
+                    <option value="exist_review">가입 중 (보장 분석 및 비교 희망)</option>
+                    <option value="renewal">만기 예정 (갱신 비교 희망)</option>
+                </select>
+
+                <label for="move_type">희망 **자부상 한도** (14급 기준)</label>
+                <select id="move-type" name="move_type" required>
+                    <option value="">선택하세요</option>
+                    <option value="min">20만원~40만원 (최소한의 보장)</option>
+                    <option value="mid">50만원~80만원 (일반적인 추천 한도)</option>
+                    <option value="high">100만원 이상 (최대 보장)</option>
+                </select>
+                
+                <label for="special_clause">필수 희망 **운전자보험 특약** 선택 (복수 선택 가능)</label>
+                <div style="margin-top: 10px; display: flex; flex-wrap: wrap; gap: 15px;">
+                    <label style="display:inline; font-weight:normal;"><input type="checkbox" name="clause[]" value="교통사고처리지원금" checked> 교통사고처리지원금</label>
+                    <label style="display:inline; font-weight:normal;"><input type="checkbox" name="clause[]" value="변호사선임비용" checked> 변호사선임비용</label>
+                    <label style="display:inline; font-weight:normal;"><input type="checkbox" name="clause[]" value="벌금" checked> 벌금</label>
+                    <label style="display:inline; font-weight:normal;"><input type="checkbox" name="clause[]" value="긴급견인비용"> 긴급 견인 비용</label>
+                    <label style="display:inline; font-weight:normal;"><input type="checkbox" name="clause[]" value="타인차량운전"> 타인 차량 운전 담보</label>
+                </div>
+                
+                <label for="car_type">주요 운전 차량 종류</label>
+                <select id="car_type" name="car_type">
+                    <option value="private">승용차 (개인용)</option>
+                    <option value="suv">SUV/RV</option>
+                    <option value="truck">화물차/영업용</option>
+                    <option value="etc">기타</option>
+                </select>
+
+                <label for="driving_style">본인의 주된 운전 스타일</label>
+                <select id="driving_style" name="driving_style">
+                    <option value="safe">안전운전</option>
+                    <option value="general">보통</option>
+                    <option value="frequent">잦은 장거리 운전</option>
+                    <option value="business">업무상 운전 빈번</option>
+                </select>
+
+                <label for="message">추가 요청 사항 및 궁금한 **자부상 조건**</label>
+                <textarea id="message" name="message" rows="5" placeholder="예: '자부상' 14급 보상액 위주로 비교해 주세요. / '운전자보험 가격' 최소화 희망."></textarea>
+
+                <button type="submit" class="btn-cta">전문가와 **자부상** 상담 요청하기</button>
+            </form>
+        </section>
+        
+        <a href="https://www.eais.go.kr/portal/site/govp/main.do" target="_blank" class="external-link" style="display:block; text-align:center; margin: 20px 0;">참고: 국토교통부 자동차 관련 정부 서비스</a>
+
+        <footer>
+            <p>본 정보는 **운전자보험 자부상**에 대한 이해를 돕기 위한 목적으로 작성되었으며, 특정 상품 가입을 강요하거나 권유하지 않습니다. 실제 가입 시에는 반드시 약관을 확인하시기 바랍니다.</p>
+            <p>© 2026 운전자보험 정보 분석 센터. 무단 복제 및 배포 금지.</p>
+        </footer>
+    </div>
+</body>
 </html>
